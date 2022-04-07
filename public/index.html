@@ -16,8 +16,15 @@
                     <h2>Create</h2>
                     <input type="text" id="inputName" class="form-control" placeholder="enter item name to create" style="background-color: lightgray;" />
                     <input type="text" id="inputDescription" class="form-control mt-2" placeholder="enter item description to create" style="background-color: lightgray;" />
-                    <input type="number" id="inputPrice" class="form-control mt-2" placeholder="enter item price to create" style="background-color: lightgray;" />
+                    <input type="number" id="inputPrice" class="form-control mt-2" placeholder="enter item price to create" style="background-color: lightgray; margin-bottom: 10px;" />
                     <button type="button" class="w-100 btn btn-lg btn-success" id="buttonCreate">POST</button>
+                    <input type="text" style="display: none;" />
+                </form>
+                <form class="mb-2">
+                    <h2>Read</h2>
+                    <input type="text" id="inputId3" class="form-control" placeholder="enter the item id of the item you would like to read" style="background-color: lightgray; margin-bottom: 10px;" />
+                    <button type="button" class="w-100 btn btn-lg btn-success" id="buttonRead" style="margin-bottom: 10px;">Read By ID</button>
+                    <button type="button" class="w-100 btn btn-lg btn-success" id="buttonReadAll" >Read All</button>
                     <input type="text" style="display: none;" />
                 </form>
                 <form class="mb-2">
@@ -25,15 +32,15 @@
                     <input type="text" id="inputName2" class="form-control" placeholder="enter the new item name" style="background-color: lightgray;" />
                     <input type="text" id="inputDescription2" class="form-control mt-2" placeholder="enter the new item description" style="background-color: lightgray;" />
                     <input type="number" id="inputPrice2" class="form-control mt-2" placeholder="enter the new item price" style="background-color: lightgray;" />
-                    <input type="text" id="inputId2" class="form-control" placeholder="enter the item id of the item to be deleted" style="background-color: lightgray;"/>
+                    <input type="text" id="inputId2" class="form-control mt-2" placeholder="enter the item id of the item to be deleted" style="background-color: lightgray; margin-bottom: 10px;"/>
                     <button type="button" class="w-100 btn btn-lg btn-warning" id="buttonUpdate">update</button>
                     <input type="text" style="display: none;" />
                 </form>
                 <form class="mb-2">
                     <h2>Delete</h2>
-                    <input type="text" id="inputId" class="form-control" placeholder="enter the item id of the item to be deleted" style="background-color: lightgray;" />
-                    <button type="button" class="w-100 btn btn-lg btn-danger" id="buttonDelete" >Delete</button>
-                    <button type="button" class="w-100 btn btn-lg btn-danger" id="buttonRead" >Delete</button>
+                    <input type="text" id="inputId" class="form-control" placeholder="enter the item id of the item to be deleted" style="background-color: lightgray; margin-bottom: 10px;" />
+                    <button type="button" class="w-100 btn btn-lg btn-danger" id="buttonDelete" style="margin-bottom: 10px;">Delete</button>
+                    <button type="button" class="w-100 btn btn-lg btn-danger" id="buttonDeleteAll" style="margin-bottom: 10px;">Delete All</button>
                     <button type="button" class="w-100 btn btn-lg btn-info" id="darkmode">Darkmode</button>
                     <input type="text" style="display: none;" />
                 </form>
